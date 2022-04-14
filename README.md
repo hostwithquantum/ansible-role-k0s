@@ -6,7 +6,8 @@ Ansible role for installing k0s.
 
 ## Requirements
 
-Poetry. Install it from <https://python-poetry.org/docs/>
+- Runtime: `unzip`
+- (Dev) Poetry. Install it from <https://python-poetry.org/docs/>
 
 ## Role Variables
 

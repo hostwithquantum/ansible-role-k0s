@@ -1,9 +1,4 @@
 ---
-- name: Install required software
-  package:
-    name: unzip
-    state: present
-
 - name: Set download directory if install only for the user
   set_fact:
     k0s_runtime_dir: "{{ ansible_user_dir }}/bin"
